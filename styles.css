@@ -119,42 +119,52 @@ body {
 }
 
 /* Mentor Section */
-.mentor_program {
-    background-image: url('photos/background_mentor.jpeg');
+/* Mentor Program Section */
+.mentor-program-section {
+    position: relative;
+    background-image: url('photos/mentor_4.jpg'); /* Replace 'background.jpg' with the URL or path to your background image */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px 0;
-}
-
-.mentor-program {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 40px 0;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-}
-
-.content {
-    flex: 1;
-    padding: 20px;
-}
-
-.image {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+    padding: 100px 20px;
+    color: #fff; /* White text for contrast */
+    text-align: left;
+  }
+  
+  /* Overlay to darken the background */
+  .mentor-overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    padding: 60px;
+    border-radius: 10px;
+  }
+  
+  /* Mentor Content Styling */
+  .mentor-content h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .mentor-content h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+  
+  .mentor-content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .mentor-content a {
+    color: #ffd700; /* Highlight link color */
+    text-decoration: none;
+  }
+  
+  .mentor-content a:hover {
+    text-decoration: underline;
+  }
+  
 
 /* Mentor Profiles Section */
 .mentors {
@@ -177,7 +187,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 12000px;
     margin: 0 auto;
     gap: 20px;
 }
