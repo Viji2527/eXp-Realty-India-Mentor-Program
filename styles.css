@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color:#f7f7f7;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -148,6 +148,11 @@ body {
     font-size: 1.8em;
     font-weight: 600;
     margin-top: 40px;
+  }
+  .mentor-content h4{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 20px;
   }
   
   .mentor-content p {
@@ -337,8 +342,8 @@ body {
 }
 
 .footer .logo {
-    height: 110px;
-    width: 155px;
+    height: 120px;
+    
     max-width: 200px;
     margin-bottom: 15px;
 }
